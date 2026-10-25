@@ -1,0 +1,51 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ and VS Code
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter, Dart and pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication and obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android Studio build output
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Compiled proxy binaries
+server/bin/server
+server/bin/server.exe
+server/chat-proxy
+server/chat-proxy.exe

@@ -1,0 +1,9 @@
+.dart_tool/
+build/
+bin/server
+bin/server.exe
+chat-proxy
+chat-proxy.exe
+.env
+.env.*
+!.env.example
